@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "31251025064 - Võ Thanh Viễn": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
