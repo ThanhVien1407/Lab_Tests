@@ -8,6 +8,7 @@ internal class Program
 {
     static bool laSNT(int k)
     {
+    
         if (k < 2) return false;
         for (int i = 2; i <= Math.Sqrt(k); i++) {
             if (k % i == 0) return false;
