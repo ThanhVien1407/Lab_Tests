@@ -10,28 +10,33 @@ internal class Program
     {
     
         if (k < 2) return false;
+
         for (int i = 2; i <= Math.Sqrt(k); i++) {
+
             if (k % i == 0) return false;
         }
         return true;
     }
-    private static void Main(string[] args)
+    private static void _Main(string[] args)
     {
         Console.OutputEncoding = System.Text.Encoding.UTF8;
 
         Console.Write("Nhập số dòng n:");
         int n = int.Parse(Console.ReadLine()!);
+
         Console.Write("Nhập số cột m:");
         int m = int.Parse(Console.ReadLine()!);
 
         int[,] matrix = new int[n, m];
 
         Console.WriteLine("----Nhập ma trận----");
+
         for (int i = 0; i < n; i++)
         {
             for (int j = 0; j < m; j++)
             {
-                Console.Write("Phần tử [{0},{1}]: ", i, j);
+                Console.Write($"Phần tử [{i},{j}]: ");
+
                 matrix[i, j] = int.Parse(Console.ReadLine()!);
 
             }
@@ -39,6 +44,7 @@ internal class Program
 
         Console.WriteLine("-----Các số nguyên tố trong ma trận-----");
         bool coSNT = false;
+
         for (int i = 0; i < n; i++)
         {
             for (int j = 0; j < m;j++)

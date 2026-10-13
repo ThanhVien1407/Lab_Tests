@@ -5,7 +5,7 @@ using System.Runtime.InteropServices.Marshalling;
 using System.Runtime.Serialization.Formatters;
 using System.Text;
 
-namespace Bài_thực_hành_trên_lớp
+namespace CSLT
 {
     internal class Buoi6
     {
@@ -130,7 +130,6 @@ namespace Bài_thực_hành_trên_lớp
 
             Console.WriteLine(String.Join(",", Mang));
         }
-
 
 
 

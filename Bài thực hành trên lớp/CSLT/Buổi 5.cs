@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Channels;
 
-namespace Bài_thực_hành_trên_lớp
+namespace CSLT
 {
     internal class Buoi5
     {

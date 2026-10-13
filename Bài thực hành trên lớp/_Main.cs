@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using CSLT;
 
 namespace Bài_thực_hành_trên_lớp
 {
@@ -9,6 +10,19 @@ namespace Bài_thực_hành_trên_lớp
         public static void Main(String[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
+            Console.InputEncoding = Encoding.UTF8;
+
+            //Console.WriteLine("""
+            //      _____ _       _____ _______ 
+            //     / ____| |     / ____|__   __|
+            //    | |    | |    | (___    | |   
+            //    | |    | |     \___ \   | |   
+            //    | |____| |____ ____) |  | |   
+            //     \_____|______|_____/   |_|   
+
+
+            //    """);
+
             // Buổi 2
             //Buoi2.Baitap01();
 
@@ -48,8 +62,34 @@ namespace Bài_thực_hành_trên_lớp
 
             //Buoi6.BaiTap07();
 
-            Buoi6.BaiTap08();
-  
+            //Buoi6.BaiTap08();
+
+            //Buổi 7
+            //Buoi7.BaiTap01();
+
+            //Buổi 8
+            //Buoi8.BaiTap01();
+
+            //Console.WriteLine("""
+            //     _____   _____         
+            //    |  __ \ / ____|  /\    
+            //    | |  | | (___   /  \   
+            //    | |  | |\___ \ / /\ \  
+            //    | |__| |____) / ____ \ 
+            //    |_____/|_____/_/    \_\
+
+
+            //    """);
+            //Buổi 2
+            DSA.Buoi2.ThucHanh();
+
+            //DSA.Buoi2.BaiTap01();
+
+            //DSA.Buoi2.BaiTap02();
+
+            //DSA.Buoi2.BaiTap03();
+
+            //DSA.Buoi2.BaiTap04();
         }
     }
 }

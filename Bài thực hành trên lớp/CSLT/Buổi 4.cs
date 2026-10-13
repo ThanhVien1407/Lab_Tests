@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Text;
 
-namespace Bài_thực_hành_trên_lớp
+namespace CSLT
 {
     internal class Buoi4
     {
