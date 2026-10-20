@@ -48,6 +48,14 @@ namespace DSA
                 Console.WriteLine($"Vuông : {Chuvi()} - {Dientich()}");
             }
         }
+        static bool hamxd1(HinhHoc h)
+        {
+            return h.Dientich() >= 20;
+        }
+        static bool hamxd2(HinhHoc h)
+        {
+            return h.Chuvi() <= 20;
+        }
         public static void ThucHanh()
         {
             List<HinhHoc> ds = new List<HinhHoc>();
@@ -62,6 +70,11 @@ namespace DSA
                     pt.Inra();
                 }
             }
+            HinhHoc h = ds.Find(hamxd1);
+
+            h.Inra();
+
+            Console.ReadKey();
         }
 
 

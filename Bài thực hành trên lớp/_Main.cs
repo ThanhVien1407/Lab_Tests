@@ -81,7 +81,7 @@ namespace Bài_thực_hành_trên_lớp
 
             //    """);
             //Buổi 2
-            DSA.Buoi2.ThucHanh();
+            //DSA.Buoi2.ThucHanh();
 
             //DSA.Buoi2.BaiTap01();
 
@@ -90,6 +90,19 @@ namespace Bài_thực_hành_trên_lớp
             //DSA.Buoi2.BaiTap03();
 
             //DSA.Buoi2.BaiTap04();
+
+            //Buổi 3
+            //DSA.Buoi3.Test();
+
+            //DSA.Buoi3.BaiTap01();
+
+            //DSA.Buoi3.BaiTap02Queue();
+
+            //DSA.Buoi3.BaiTap02Stack();
+
+            DSA.Buoi3.BaiTap03();
+
+            //DSA.Buoi3.BaiTap04();
         }
     }
 }
